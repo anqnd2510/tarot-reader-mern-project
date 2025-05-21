@@ -5,6 +5,13 @@ const router = Router();
 
 /**
  * @swagger
+ * tags:
+ *   name: Accounts
+ *   description: API for managing user accounts
+ */
+
+/**
+ * @swagger
  * /api/accounts/register:
  *   post:
  *     summary: Register a new user
