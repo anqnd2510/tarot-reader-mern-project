@@ -9,6 +9,8 @@ const tarotCardSchema = new Schema<ITarotCard>(
     suit: { type: String, required: true },
     number: { type: Number, required: true },
     reversedMeaning: { type: String, required: true },
+    uprightMeaning: { type: String, required: true },
+    isActive: { type: Boolean, default: true },
   },
   { timestamps: true }
 );

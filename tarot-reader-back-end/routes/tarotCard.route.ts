@@ -48,6 +48,9 @@ const router = Router();
  *               reversedMeaning:
  *                 type: string
  *                 example: Recklessness, foolishness, and lack of direction.
+ *               uprightMeaning:
+ *                 type: string
+ *                 example: Recklessness, foolishness, and lack of direction.
  *     responses:
  *       201:
  *         description: Tarot card created successfully
@@ -162,6 +165,9 @@ router.delete("/:id", tarotCardController.deleteTarotCard);
  *                 type: integer
  *                 example: 0
  *               reversedMeaning:
+ *                 type: string
+ *                 example: Recklessness, foolishness, and lack of direction.
+ *               uprightMeaning:
  *                 type: string
  *                 example: Recklessness, foolishness, and lack of direction.
  *     responses:
